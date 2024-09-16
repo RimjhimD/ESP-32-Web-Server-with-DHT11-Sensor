@@ -4,15 +4,33 @@
 **Course Code**: CSE 3816  
 **Semester**: 4th  
 
+
+
 ## Introduction
 
 This project demonstrates the creation of a web server using the ESP32 Dev Kit to monitor and display temperature and humidity data from a DHT11 sensor. The primary objective is to utilize the ESP32 Dev Kit's capabilities to serve a real-time, user-friendly web interface that provides environmental data remotely. This project highlights the potential of IoT (Internet of Things) technologies for building practical and interactive systems that enable remote monitoring.
+
+
 
 ## Objectives
 
 - Set up a web server on the ESP32 Dev Kit.
 - Interface the ESP32 Dev Kit with the DHT11 sensor for reading temperature and humidity data.
 - Display the temperature and humidity data in real-time on a web page served by the ESP32.
+
+
+
+
+## Submitted By
+
+| Name                  | ID                  |
+|-----------------------|---------------------|
+| MD SAKIB              | 0222220005101019    |
+| SAMIRA SULTANA MYSHA  | 0222220005101022    |
+| FARIHA RASHID NOHA    | 0222220005101035    |
+| RIMJHIM DEY           | 0222220005101039    |
+
+
 
 ## Components Used
 
@@ -21,11 +39,13 @@ This project demonstrates the creation of a web server using the ESP32 Dev Kit t
 - **Breadboard**: For prototyping and connecting components.
 - **Wires**: Used to make electrical connections between the components.
 - **Power Supply**: Provides power to the ESP32 Dev Kit and connected components.
+- 
 
 ## Circuit Design
 
 You can find the circuit diagram in the [Circuit Design/d1.png](./Circuit%20Design/d1.png) file.  
 This diagram shows how the ESP32 is connected to the DHT11 sensor and other components.
+
 
 ## Programming Environment
 
@@ -33,6 +53,7 @@ This diagram shows how the ESP32 is connected to the DHT11 sensor and other comp
 - **Libraries Used**:
   - `DHT` library for interacting with the DHT11 sensor.
   - `WiFi` library for network connectivity.
+  - 
 
 ## Setup Instructions
 
@@ -46,13 +67,16 @@ This diagram shows how the ESP32 is connected to the DHT11 sensor and other comp
 4. **Upload the provided code** from this repository to the ESP32 via Arduino IDE.
 5. **Open a web browser** and navigate to the ESP32's IP address to view the real-time temperature and humidity data.
 
+
 ## How it Works
 
 The ESP32 acts as both a WiFi client and a web server. Once connected to a WiFi network, it retrieves temperature and humidity data from the DHT11 sensor. The ESP32 serves a web page that displays these readings, refreshing every few seconds for real-time updates.
 
+
 ## Results
 
 The web interface provides live temperature and humidity data using a clean, user-friendly design. The data is refreshed every 4 seconds, giving an accurate picture of the environmental conditions measured by the DHT11 sensor.
+
 
 ## Acknowledgments
 
