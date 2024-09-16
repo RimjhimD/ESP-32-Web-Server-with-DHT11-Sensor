@@ -75,7 +75,7 @@ The ESP32 acts as both a WiFi client and a web server. Once connected to a WiFi 
 
 ## Results
 
-The web interface provides live temperature and humidity data using a clean, user-friendly design. The data is refreshed every 4 seconds, giving an accurate picture of the environmental conditions measured by the DHT11 sensor.
+The web interface provides live temperature and humidity data using a clean, user-friendly design. The data is refreshed every 4 seconds, giving an accurate picture of the environmental conditions measured by the DHT11 sensor.You can view a screenshot of the web interface displaying the temperature and humidity data in the [Result/web_interface_ss.png](./Result/web_interface_ss.png) file.
 
 
 ## Acknowledgments
